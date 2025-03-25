@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-width: 1240px;
+  margin: auto;
+  padding: 10px;
+}
+nav .yq {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+nav .ref {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ref a {
+  text-decoration: none;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: cursive;
+  text-transform: uppercase;
+  color: black;
+}
+.ref button {
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1597594839535-d7ce3ac7392a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+.hero > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px;
+}
+.hero div div {
+  color: white;
+  width: 100%;
+  max-width: 500px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.hero p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.hero button {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+footer h2 {
+  margin-bottom: 15px;
+  font-style: italic;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+}
+.sec {
+  background-color: black;
+}
+.products {
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px;
+}
+.inner-product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 0;
+  gap: 30px;
+}
+.product {
+  background-color: white;
+  width: 300px;
+  height: 340px;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 10px;
+}
+.product img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.product div {
+  height: 40%;
+  padding: 15px;
+}
+.product .price {
+  margin: 3px 0;
+}
