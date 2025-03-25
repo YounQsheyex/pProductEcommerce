@@ -23,9 +23,9 @@ function displayProducts(product) {
   <img src="${images[0]}" alt="${title}" />
   <div>
     <h3>${title} </h3>
-    <p class="price">$${price}</p>
+     <div class="price"> <p>$${price}</p></div>
     <p class="stock">${stock} items left</p>
-    <p>Rating:${rating}</p>
+    <p class="rate">Rating:${rating}</p>
     </div>
     `;
     eProduct.appendChild(innerProuduct);
