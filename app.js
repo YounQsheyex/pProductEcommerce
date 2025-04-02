@@ -17,7 +17,7 @@ function displayProducts(products) {
   products.forEach((product) => {
     const productDiv = document.createElement("div");
     // innerProuduct.classList.add("product");
-    productDiv.className = 'product'
+    productDiv.className = "product";
     const { images, title, price, stock, rating } = product;
     productDiv.innerHTML = ` 
   <img src="${images[0]}" alt="${title}" />
